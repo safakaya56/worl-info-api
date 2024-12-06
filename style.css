@@ -1,0 +1,38 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image:url(background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+#txtSearch{
+    background-color: white;
+    opacity: 0.8;
+    border: none;
+}
+#txtSearch:focus{
+   border: 1px solid black;
+   opacity: 1;
+}
+
+
+#btnSearch{
+    background-color: rgb(234, 209, 69);
+}
+
+#btnSearch:hover{
+    background-color: gold;
+}
+
+.search{
+    width: 420px;
+}
